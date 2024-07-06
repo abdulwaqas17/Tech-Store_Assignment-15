@@ -6,6 +6,7 @@
 }
 
 body{
+    min-width: 1269px;
     background-color:black;
     background: linear-gradient(to right,black,rgb(56, 55, 55));
     background: #080808;
@@ -17,6 +18,19 @@ span{
 }
 
 /* HEADER */
+
+.techno{
+    font-family: cursive;
+}
+
+.shadow{
+    font-size: 2rem; 
+    text-shadow: -7px -5px 5px white;
+}
+
+.banner-shadow{
+    text-shadow: -15px -15px 17px  white;
+}
 
 
 .header{
@@ -74,14 +88,15 @@ a{
     background-image: url(https://techno-workdo.myshopify.com/cdn/shop/files/main-banner-1.png?v=1714560913
     );
     background-size: cover;
-    height: 120%;
+    background-position: center;
+    height: 95%;
 } 
 
 .banner-text{
     text-align: center;
     color: white;
     /* border: 2px solid white; */
-    padding-top: 200px;
+    padding-top: 130px;
 }
 
 .light{
@@ -112,8 +127,7 @@ h1{
     /* background-color: rgb(53, 49, 49); */
     margin-left: 20px;
     margin-right: 20px;
-    height: 2000px;
-    
+ 
 }
 
 .main-text{
@@ -234,7 +248,7 @@ h1{
 .main-square-box{
     display: inline-block;
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: #1c1c1c;
     
 }
@@ -302,7 +316,7 @@ td{
 
 .footer-content{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .footer-content h2{
@@ -336,4 +350,18 @@ td{
 a:hover{
     color: rgb(156, 153, 153);
     font-weight: 500;
+}
+
+.button:hover{
+    background-color: white;
+    color:#4b96d9 ;
+    border: 2px solid #4b96d9;
+}
+
+/* Media */
+
+@media (max-width:340px) {
+    .nav-top-one,.nav-top-three{
+        display: none;
+    }
 }
